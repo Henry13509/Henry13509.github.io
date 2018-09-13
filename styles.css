@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
     color: white;
-    background-image: url(img/orange-3134148.png);
+    background-image: url(/img/banana-3660147.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -27,6 +27,12 @@ p {
     animation-name: seesaw;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+}
+
+.card-body,
+li {
+    text-transform: capitalize;
+    list-style-type: none;
 }
 
 /*Animation for card img*/
@@ -54,7 +60,7 @@ p {
 .fa-html5 {
     color: rgba(255, 0, 0, 0.71);
     animation-name: htmlcon;
-    animation-duration: 0.8s;
+    animation-duration: 0.4s;
     animation-delay: -60s;
     animation-iteration-count: infinite;
 }
@@ -62,7 +68,7 @@ p {
 .fa-css3-alt {
     color: rgba(16, 16, 208, 0.71);
     animation-name: csscon;
-    animation-duration: 0.9s;
+    animation-duration: 0.6s;
     animation-delay: -60s;
     animation-iteration-count: infinite;
 }
@@ -194,6 +200,8 @@ Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 320px) {
     .jumbotron {
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 2rem;
     }
     .card-img-top {
@@ -203,6 +211,8 @@ Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 360px) {
     .jumbotron {
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 2rem;
     }
     .card-img-top {
@@ -213,19 +223,20 @@ Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
     .card-img-top {
         visibility: visible;
-        margin-left: 10%;
-        padding: 20px;
+        margin-left: 15%;
     }
 }
 
 @media (min-width: 411px) {
     .card-img-top {
-        margin-left: 14%;
+        margin-left: 20%;
     }
 }
 
 @media (min-width: 600px) {
     .jumbotron {
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 2rem;
     }
     .card-img-top {
@@ -238,7 +249,7 @@ Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 768px) {
     .jumbotron {
-        color: black;
+        background-repeat: no-repeat;
         background-size: cover;
         margin: 2rem;
     }
@@ -259,9 +270,9 @@ Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 1200px) {
     .jumbotron {
-        color: black;
         background-size: 46rem;
         background-repeat: no-repeat;
+        background-size: cover;
         margin: 20px;
     }
     .card-img-top {
